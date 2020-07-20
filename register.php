@@ -102,7 +102,7 @@ if (isset($_POST) and $_SERVER["REQUEST_METHOD"]=="POST") {
   $u_code = generateRandomString(20);
 
   //register
-  $sql = "INSERT INTO users (`first_name`, `last_name`, `password`, `e-mail`, `confirm_mail`, `phone`) VALUES ('".$_POST['first_name']."', '".$_POST['last_name']."','".$password."', '".$_POST['email']."', '$u_code', '".$_POST['phone']."')";
+  $sql = "INSERT INTO users (`first_name`, `last_name`, `password`, `e-mail`, `confirm_mail`, `phone`) VALUES ('".$first_name."', '".$last_name."','".$password."', '".$_POST['email']."', '$u_code', '".$_POST['phone']."')";
 
   if ($conn->query($sql)) {
     ?>
