@@ -7,12 +7,12 @@ $first_name = $last_name = $phone = $adress = $email = $password = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["first_name"])) {
-    $first_nameErr = "Имя обязательно";
+    $first_nameErr = "Имя обязательно333";
   } else {
     $first_name = test_input($_POST["first_name"]);
     // check if name only contains letters
     if (!preg_match("/^[a-zA-Zа-яА-Я]+$/iu",$first_name)) {
-      $first_nameErr = "Только буквы";
+      $first_nameErr = "Только буквы5555";
     }
   }
   
@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $last_name = test_input($_POST["last_name"]);
     // check if name only contains letters
     if (!preg_match("/^[a-zA-Zа-яА-Я]+$/iu",$last_name)) {
-      $last_nameErr = "Только буквы";
+      $last_nameErr = "Только буквы666";
     }
   }
 
