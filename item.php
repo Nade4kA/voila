@@ -19,7 +19,7 @@
         <div class="row">
             <div class="col-md-12">
                 <div class="heading-content">
-                    <h2>НАШЕ МЕНЮ</h2>
+                    <h2>НАШЕ МЕНЮ branchN</h2>
                     <span><a href="/"> Главная </a> / <a href="/products.php">МЕНЮ</a> / <a href="/cat.php?cat_id=<?php echo $category['cat_id'] ?>"> <?php echo $category['cat_title']?></a> </span>
                 </div>
             </div>
