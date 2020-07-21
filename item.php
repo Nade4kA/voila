@@ -49,7 +49,7 @@
 		
 		<p class = "item_description"> <?php echo $row['description']?> </p> <br>
 		<p class = "item_ves"> Вес/объём: <?php echo $row['ves']?> </p><br>
-		<span class="product-price">₴ <?php  echo $row['cost'] ?></span>
+		<span class="product-price"><?php  echo $row['cost'] ?> грн</span>
 	</div>
 	
 </div>		
