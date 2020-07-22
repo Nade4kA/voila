@@ -1,7 +1,7 @@
 <?php
 include $_SERVER['DOCUMENT_ROOT'].'/configs/db.php'; //поключаем БД к странице
 // Проверка заполнения формы
-
+// создание переменных 
 $first_nameErr = $last_nameErr = $phoneErr = $adressErr = $emailErr = $passwordErr = "";
 $first_name = $last_name = $phone = $adress = $email = $password = "";
 
